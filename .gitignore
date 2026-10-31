@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+
+# Generated EPUB files
+output/
+*.epub
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/

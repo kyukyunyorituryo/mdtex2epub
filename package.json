@@ -1,0 +1,18 @@
+{
+  "name": "md-tex-epub",
+  "version": "1.0.0",
+  "description": "Convert Markdown and LaTeX documents into EPUB ebooks.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node convert.mjs"
+  },
+  "keywords": [],
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "jszip": "^3.10.2",
+    "katex": "^0.19.0",
+    "markdown-it": "^15.0.3",
+    "markdown-it-texmath": "^1.0.0"
+  }
+}
